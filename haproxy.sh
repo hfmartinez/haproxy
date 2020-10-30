@@ -97,7 +97,7 @@ backend webservers
     balance roundrobin
     stats enable
     stats auth admin:admin
-    stats uri /haproxy?stats
+    stats uri /stats
     option httpchk
     option forwardfor
     option http-server-close
